@@ -1,0 +1,38 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #F3F5F7;
+
+  .header {
+    display: flex;
+    align-items: center;
+    color: #1E6FFF;
+
+    h1 {
+      width: 300px;
+      text-align: center;
+    }
+
+    .tool-bar {
+      flex: 1;
+    }
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+
+    .side-bar {
+      min-width: 300px;
+    }
+
+    .canvas {
+      flex: 1;
+      border: 1px solid #E5E7E8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

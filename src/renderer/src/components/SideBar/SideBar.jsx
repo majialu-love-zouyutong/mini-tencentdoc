@@ -1,4 +1,4 @@
-import './sideBar.css'
+import './sideBar.scss'
 export default function SideBar() {
   return (
     <div className="side-bar-container">
